@@ -1,0 +1,74 @@
+2020-05-28 16:16:11,754 INFO  - Starting ServiceWrapper in the service mode
+2020-05-28 16:16:12,719 INFO  - Starting C:\Program Files\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files\Jenkins\war"
+2020-05-28 16:16:12,861 INFO  - Extension loaded: killOnStartup
+2020-05-28 16:16:12,880 WARN  - The requested PID file 'C:\Program Files\Jenkins\jenkins.pid' does not exist. The runaway process won't be checked
+2020-05-28 16:16:13,799 INFO  - Started process 6772
+2020-05-28 16:16:13,840 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-05-28 16:16:13,867 INFO  - Recording PID of the started process:6772. PID file destination is C:\Program Files\Jenkins\jenkins.pid
+2020-06-04 15:59:43,804 INFO  - Stopping Jenkins
+2020-06-04 15:59:43,841 DEBUG - ProcessKill 6772
+2020-06-04 15:59:44,734 INFO  - Found child process: 4712 Name: conhost.exe
+2020-06-04 15:59:44,877 INFO  - Stopping process 4712
+2020-06-04 15:59:44,945 INFO  - Send SIGINT 4712
+2020-06-04 15:59:45,041 WARN  - SIGINT to 4712 failed - Killing as fallback
+2020-06-04 15:59:45,081 INFO  - Stopping process 6772
+2020-06-04 15:59:45,089 INFO  - Send SIGINT 6772
+2020-06-04 15:59:45,133 WARN  - SIGINT to 6772 failed - Killing as fallback
+2020-06-04 15:59:45,255 INFO  - Finished Jenkins
+2020-06-04 15:59:45,286 DEBUG - Completed. Exit code is 0
+2020-06-11 12:49:53,201 INFO  - Starting ServiceWrapper in the service mode
+2020-06-11 12:49:53,526 INFO  - Starting C:\Program Files\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files\Jenkins\war"
+2020-06-11 12:49:53,670 INFO  - Extension loaded: killOnStartup
+2020-06-11 12:49:53,791 DEBUG - Checking the potentially runaway process with PID=6772
+2020-06-11 12:49:53,869 DEBUG - No runaway process with PID=6772. The process has been already stopped.
+2020-06-11 12:49:54,849 INFO  - Started process 9856
+2020-06-11 12:49:54,897 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-06-11 12:49:54,991 INFO  - Recording PID of the started process:9856. PID file destination is C:\Program Files\Jenkins\jenkins.pid
+2020-06-14 22:38:45,869 INFO  - Stopping Jenkins
+2020-06-14 22:38:52,010 DEBUG - ProcessKill 9856
+2020-06-14 22:39:06,619 WARN  - Failed to locate children of the process with PID=9856. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress.
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-14 22:39:10,994 INFO  - Stopping process 9856
+2020-06-14 22:39:10,994 INFO  - Send SIGINT 9856
+2020-06-14 22:39:23,807 INFO  - SIGINT to 9856 successful
+2020-06-14 22:39:24,182 INFO  - Finished Jenkins
+2020-06-14 22:39:24,478 DEBUG - Completed. Exit code is 0
+2020-06-14 22:43:07,697 INFO  - Starting ServiceWrapper in the service mode
+2020-06-14 22:43:08,615 INFO  - Starting C:\Program Files\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files\Jenkins\war"
+2020-06-14 22:43:08,803 INFO  - Extension loaded: killOnStartup
+2020-06-14 22:43:09,200 DEBUG - Checking the potentially runaway process with PID=9856
+2020-06-14 22:43:09,435 DEBUG - No runaway process with PID=9856. The process has been already stopped.
+2020-06-14 22:43:10,200 INFO  - Started process 836
+2020-06-14 22:43:10,310 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-06-14 22:43:10,325 INFO  - Recording PID of the started process:836. PID file destination is C:\Program Files\Jenkins\jenkins.pid
+2020-06-14 22:49:27,899 INFO  - Stopping Jenkins
+2020-06-14 22:49:27,899 DEBUG - ProcessKill 836
+2020-06-14 22:49:32,149 WARN  - Failed to locate children of the process with PID=836. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress.
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-14 22:49:33,368 INFO  - Stopping process 836
+2020-06-14 22:49:33,384 INFO  - Send SIGINT 836
+2020-06-14 22:49:33,696 INFO  - SIGINT to 836 successful
+2020-06-14 22:49:34,290 INFO  - Finished Jenkins
+2020-06-14 22:49:34,431 DEBUG - Completed. Exit code is 0
+2020-06-15 12:01:33,627 INFO  - Starting ServiceWrapper in the service mode
+2020-06-15 12:01:34,266 INFO  - Starting C:\Program Files\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files\Jenkins\war"
+2020-06-15 12:01:34,668 INFO  - Extension loaded: killOnStartup
+2020-06-15 12:01:34,884 DEBUG - Checking the potentially runaway process with PID=836
+2020-06-15 12:01:35,054 DEBUG - No runaway process with PID=836. The process has been already stopped.
+2020-06-15 12:01:35,605 INFO  - Started process 3732
+2020-06-15 12:01:35,711 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-06-15 12:01:35,726 INFO  - Recording PID of the started process:3732. PID file destination is C:\Program Files\Jenkins\jenkins.pid
